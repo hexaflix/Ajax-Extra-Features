@@ -41,13 +41,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🚀 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🚀', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CXNmovis'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CXNMOVIES')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CXNMOVIES'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CXNmovis')
             ],[      
             InlineKeyboardButton('♻️ʜᴇʟᴘ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ᴀʙᴏᴜᴛ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇꜱ', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('🍁ᴏᴡɴᴇʀ', url='https://t.me/CXN_ADMIN')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -90,7 +90,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ʜᴇʟᴘ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ᴀʙᴏᴜᴛ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇꜱ', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('🍁ᴏᴡɴᴇʀ', url='https://t.me/CXN_ADMIN')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
